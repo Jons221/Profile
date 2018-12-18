@@ -14,4 +14,6 @@ body {
     z-index: 0;
     display: none;
   }
-  @media500px
+  .bg-aqua{
+    background-color: #94e4dd;
+  }

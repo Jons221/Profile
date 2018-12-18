@@ -1,0 +1,26 @@
+.color{
+background-color: gray;
+}
+
+.filtr-container,
+.filtr-item {
+    font-size: 15px;
+}
+.filtr-item {
+    display: inline-block;
+  
+}
+/* img {
+    height: 200px
+    width:200px;
+    
+} */
+/* 
+img {
+    height: 200PX;
+    width: 200PX;
+} */
+
+
+
+
