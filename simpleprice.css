@@ -21,6 +21,8 @@ img {
     width: 200PX;
 } */
 
-
-
-
+li a:hover:not(.active)
+{
+    background-color: gray;
+    color: white;
+}

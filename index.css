@@ -17,3 +17,9 @@ body {
   .bg-aqua{
     background-color: #94e4dd;
   }
+
+  li a:hover:not(.active)
+{
+    background-color: gray;
+    color: white;
+}
