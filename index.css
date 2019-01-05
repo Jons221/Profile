@@ -23,3 +23,31 @@ body {
     background-color: gray;
     color: white;
 }
+.myprofile{
+  width: 100px;
+  height: 1oopx;
+  background: url("./IMG_20180806_135435.jpg")
+}
+.btn-outline-pink{
+  outline: #f89e9e;
+  color: #f89e9e;
+  border-color: #f89e9e;
+  
+}
+.pink  i:hover:not(.active)
+{
+  background-color: #f89e9e;
+  color: white;
+}
+
+
+.border-bottom{
+  border-bottom: 20px;
+}
+
+
+.bg-prof{
+  background: url("./bg-prof.jpeg")
+}
+
+
