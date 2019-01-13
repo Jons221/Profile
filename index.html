@@ -27,14 +27,14 @@
                 <li class="nav-item active">
                     <a class="nav-link text-light">Home</a>
                 </li>
-                <li class="nav-item ">
-                    <a href="#" class="nav-link text-light">About me</a>
-                </li>
                 <li class="nav-item">
                     <a href="#Experience" class="nav-link text-light">Experience</a>
                 </li>
+                <li class="nav-item ">
+                    <a href="#Skill" class="nav-link text-light">Skill</a>
+                </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-light">Project</a>
+                    <a href="#Education" class="nav-link text-light">Education</a>
                 </li>
             </ul>
         </div>
@@ -72,7 +72,7 @@
     </div> -->
     <br>
     <img src="./IMG_20180806_135435-1.jpg" alt="Profile" class="d-sm-none d-block" width="100%" >
-    <div class="container bg-prof">
+    <div class="container bg-prof d-none d-sm-block     ">
         <br>
         
    
@@ -116,7 +116,9 @@
                 
                 <div class="d-flex flex-column col-md-8">
                     <div class="p-2 d-none d-sm-block">
-                            <h1><strong class="font-weight-bold">Hi there, </strong>my name is Jon susanto, i can make a web profile for you </h1>
+                            <h1><strong class="font-weight-bold">Hi there, </strong>my name is Jon susanto, i can make a web profile for you, click to 
+                                <a class="btn btn-outline-success" href="#footer">Contact me</a>
+                            </h1>
                             <h2>below here is example</h2>
                     </div>
                 </div>
@@ -138,7 +140,7 @@
     
     <br>
 
-    <div class="bg-dark text-light text-center" id="Experience">Experience</div>
+    <div class="bg-primary text-light text-center" id="Experience">Experience</div>
 
     <div class="d-block d-sm-block d-md-block d-lg-none">
         <div class="row">
@@ -161,9 +163,35 @@
         </div>
 
     </div>
+    
+
+    <div class="container d-none d-sm-none d-md-none d-lg-block">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./simple_prize.png" alt="First slide" width="100%">
+                    <a href="./simpleprice.html" class="btn btn-outline-dark container"><strong>Simple Prize</strong></a>
+                </div>
+                <div class="carousel-item">
+                    <img  src="./Screenshot from 2019-01-05 18-43-02.png" alt="Second slide" width="100%">
+                    <a href="./blog.html" class="btn btn-outline-dark container"><strong>Own Blog</strong></a>
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
 
 
-    <div id="carouselExampleControls" class=" carousel slide d-none d-sm-block d-md-none d-lg-block" data-ride="carousel">
+
+    <!-- <div id="carouselExampleControls" class=" carousel slide d-none d-sm-block d-md-none d-lg-block" data-ride="carousel">
             <div class="carousel-inner ">
                 <div class="carousel-item active">
                     <img class="d-block " src="./simple_prize.png" alt="First slide" width="100%">
@@ -282,7 +310,7 @@
     </div>
             </a>
     
-        </div>
+        </div> -->
     <!-- <div class="container card bg-aqua">
         <h4><i class="fas fa-graduation-cap"><strong>Education</strong></i></h4>
         <br>
@@ -327,7 +355,7 @@
                 aria-valuemax="100">30%</div>
         </div> -->
 
-        <div class="container">
+        <div class="container" id="Skill">
             <div class="card">
                 <div class="card-header bg-primary text-light">
                     <h4><strong><i class="fas fa-certificate"></i>Skill</strong></h4>
@@ -347,8 +375,8 @@
                         <br>
                         <h5>Javascript</h5>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width:30%" aria-valuenow="75" aria-valuemin="0"
-                                aria-valuemax="100">30%</div>
+                            <div class="progress-bar" role="progressbar" style="width:20%" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100">20%</div>
                 </div>
             </div>
         </div>
@@ -356,7 +384,7 @@
         <br>
 
 
-        <div class="container">
+        <div class="container" id="Education">
                 <div class="card ">
                     <div class="card-header bg-primary text-light">
                         <h4><i class="fas fa-graduation-cap"><strong>Education</strong></i></h4>
@@ -378,6 +406,19 @@
     </div>
 
     <br>
+
+    <!-- <div class="container">
+        <div class="card">
+            <div class="card-header bg-primary text-light">
+                <h4><i class="fas fa-user"></i> Hobby</h4>
+            </div>
+            <div class="body-card container">
+                <h5><strong>Material Art</strong></h5>
+                <h5><strong>Swimming</strong></h5>
+                <h5><strong>Play game</strong></h5>
+            </div>
+        </div>
+    </div> -->
 
     
     <!-- <div class="d-block d-md-none">
@@ -408,7 +449,7 @@
 
 
 
-    <footer class="card bg-primary" style="height:150px ;">
+    <footer class="card bg-primary" style="height:150px ;" id="footer" >
         <div class="d-flex justify-content-center pt-4"><Strong class="text-white">Contact Me</Strong></div>
         <div class="d-flex justify-content-center pt-3 pb-2">
             <a class="btn btn-link" href="https://plus.google.com/u/0/100601522238227463412?tab=mX">
