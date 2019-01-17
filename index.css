@@ -58,7 +58,7 @@ body {
 .bar{
   background: #353b48;
   display: block;
-  width: 95%;
+  width: 100%;
   height: 10px;
   border: 1px solid;
   border-radius: 5px;
@@ -74,10 +74,14 @@ body {
 }
 .skill{
   list-style: none;
+  float: right;
 }
 .html{
   width: 80%;
   animation: html 4s;
+}
+.text-html{
+  margin-right: 1000px;
 }
 .css{
   width: 70%;
@@ -87,6 +91,7 @@ body {
   width: 40%;
   animation: javascript 4s;
 }
+
 @keyframes html{
   0%{
     width: 0%;
@@ -120,7 +125,7 @@ navbar.black{
   
 }
 #particles-js{
-  height: 2250px;
+  height: 2367px;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url();
   background: black;
@@ -168,4 +173,34 @@ navbar.black{
 .all{
   background: rgba(0, 0, 0, 0);
   position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  #particles-js{
+    height: 3000px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url();
+    background: black;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #particles-js{
+    height: 2437px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url();
+    background: black;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+  }
+}
+.animation.animate {
+  animation: html 5s;
+}
+.bg-dongker{
+  text-decoration-color: #6a95bd;
+  background: #6a95bd;
 }
