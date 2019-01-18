@@ -91,7 +91,10 @@ body {
   width: 40%;
   animation: javascript 4s;
 }
-
+.c {
+  width: 25%;
+  animation: c 4s;
+}
 @keyframes html{
   0%{
     width: 0%;
@@ -116,6 +119,14 @@ body {
     width: 40%;
   }
 }
+@keyframes c{
+  0%{
+    width:0%;
+  }
+  100%{
+    width: 25%;
+  }
+}
 
 
 navbar.black{
@@ -125,13 +136,14 @@ navbar.black{
   
 }
 #particles-js{
-  height: 2367px;
+  height: 100%;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url();
   background: black;
   background-size: cover;
   background-position: center;
   position: absolute;
+  position: fixed;
 }
 .card-1{
   cursor: pointer;
@@ -177,24 +189,26 @@ navbar.black{
 
 @media only screen and (max-width: 600px) {
   #particles-js{
-    height: 3000px;
+    height: 10%;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url();
     background: black;
     background-size: cover;
     background-position: center;
     position: absolute;
+    position: fixed;
   }
 }
 @media only screen and (max-width: 992px) {
   #particles-js{
-    height: 2437px;
+    height: 100%;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url();
     background: black;
     background-size: cover;
     background-position: center;
     position: absolute;
+    position: fixed;
   }
 }
 .animation.animate {
@@ -203,4 +217,11 @@ navbar.black{
 .bg-dongker{
   text-decoration-color: #6a95bd;
   background: #6a95bd;
+}
+.form-email{
+  position: relative;
+}
+.btn-pink{
+  background: pink;
+  color: white;
 }
